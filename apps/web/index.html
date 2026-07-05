@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SyMoNeuRaL MoE</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=symoneural1">
+</head>
+<body>
+<header>
+  <div class="logo"></div>
+  <div>
+    <div class="title">SyMoNeuRaL MoE</div>
+    <div class="status">single local endpoint · 127.0.0.1:8000</div>
+  </div>
+  <div id="health" class="chip">checking...</div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div id="messages"></div>
+  </div>
+</main>
+
+<div class="composer">
+  <div class="model-label">This ain’t AI. This is SyMoNeuRaL.</div>
+  <textarea id="prompt" placeholder="Message SyMoNeuRaL..."></textarea>
+  <div class="bar">
+    <button id="send" onclick="sendPrompt()">Send</button>
+    <button onclick="clearMessages()">Clear</button>
+    <span id="busy" class="status"></span>
+  </div>
+</div>
+
+<script src="/static/js/app.js?v=symoneural1"></script>
+</body>
+</html>

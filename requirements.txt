@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.7
+python-multipart>=0.0.9
+pillow>=10.3
+safetensors>=0.4.3
+torch>=2.4
+transformers>=4.44
+accelerate>=0.33
+diffusers>=0.30
+sentencepiece>=0.2
+protobuf>=5.27
