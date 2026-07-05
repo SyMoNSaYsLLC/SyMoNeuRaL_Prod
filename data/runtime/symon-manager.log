@@ -10,3 +10,12 @@ INFO:     127.0.0.1:55952 - "GET /static/css/style.css?v=symoneural1 HTTP/1.1" 2
 INFO:     127.0.0.1:55952 - "GET /health HTTP/1.1" 200 OK
 INFO:     127.0.0.1:55968 - "GET /favicon.ico HTTP/1.1" 404 Not Found
 INFO:     127.0.0.1:49040 - "POST /v1/chat/completions HTTP/1.1" 503 Service Unavailable
+WARNING:  Invalid HTTP request received.
+INFO:     40.124.174.245:56748 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     45.205.1.247:38556 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4467]
